@@ -409,5 +409,37 @@ header .navbar ul li a:hover{
     }
     
 }
-}
+
+@media (max-width:768px){
+    html{
+        font-size: 50%;
+    }
+    
+    
+    }
+    
+    @media (max-width:400px){
+        header{
+            width: 100vw;
+        }
+        .heading{
+            margin: 0 3rem;
+        }
+        .sobre .row .counter .box{
+            width: 100%;
+        }
+        .education .box-container .box{
+            width: 100%;
+        }
+        .portifolio .box-container .box{
+            width: 100%;
+        }
+        .contato .row form{
+            margin: 3rem 0;
+        }
+        
+    }/*400*/
+    
+    }/*@media*/
+    
     
